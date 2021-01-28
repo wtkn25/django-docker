@@ -2,7 +2,7 @@ FROM python:3.9-slim-buster
 
 # 各パッケージインストール
 RUN apt-get update && \
-    apt-get -y install gcc libmariadb-dev
+    apt-get -y install gcc libmariadb-dev default-mysql-client
 
 # Poetryを導入
 RUN pip install poetry
