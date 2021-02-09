@@ -15,6 +15,8 @@ services:
     build: ./Dockerfiles/MySQL/
     volumes:
       - db-volume:/var/lib/mysql
+    ports:
+      - 3306:3306
     environment:
       MYSQL_ROOT_PASSWORD: password
 volumes:
