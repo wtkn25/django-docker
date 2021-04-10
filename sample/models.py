@@ -1,16 +1,20 @@
 from django.db import models
 from django.utils import timezone
 
+
 class CompanyQuerySet(models.QuerySet):
-    def delete(self)->None:
+    def delete(self) -> None:
         self.update(deleted_at=timezone.now())
 
-    def hard_delete(self)->None:
+    def hard_delete(self) -> None:
         super(CompanyQuerySet, self).delete()
+
 
 class CompanyManager(models.Manager):
     def get_queryset(self):
-        return CompanyQuerySet(self.model, using=self._db).filter(deleted_at__isnull=True)
+        return CompanyQuerySet(self.model, using=self._db).filter(
+            deleted_at__isnull=True
+        )
 
 
 class Company(models.Model):
@@ -20,18 +24,19 @@ class Company(models.Model):
     objects = CompanyManager()
     all_objects = CompanyQuerySet.as_manager()
 
-    def delete(self)->None:
-        self.deleted_at=timezone.now()
+    def delete(self) -> None:
+        self.deleted_at = timezone.now()
         self.save()
 
-    def hard_delete(self)->None:
+    def hard_delete(self) -> None:
         super().delete()
 
+
 class GoodsQuerySet(models.QuerySet):
-    def delete(self)->None:
+    def delete(self) -> None:
         self.update(deleted_at=timezone.now())
 
-    def hard_delete(self)->None:
+    def hard_delete(self) -> None:
         super().delete()
 
 
@@ -52,9 +57,9 @@ class Goods(models.Model):
     objects = GoodsManager()
     all_objects = models.Manager()
 
-    def delete(self)->None:
-        self.deleted_at=timezone.now()
+    def delete(self) -> None:
+        self.deleted_at = timezone.now()
         self.save()
 
-    def hard_delete(self)->None:
+    def hard_delete(self) -> None:
         super().delete()
