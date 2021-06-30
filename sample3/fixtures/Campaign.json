@@ -1,0 +1,18 @@
+[
+  {
+    "model": "sample3.campaign",
+    "pk": 1,
+    "fields": {
+      "name": "キャンペーン",
+      "created_at": "2021-06-30T14:46:18.274Z"
+    }
+  },
+  {
+    "model": "sample3.campaign",
+    "pk": 2,
+    "fields": {
+      "name": "キャンペーン2",
+      "created_at": "2021-06-30T15:03:29.367Z"
+    }
+  }
+]
