@@ -1,0 +1,9 @@
+[
+  {
+    "model": "sample2.city",
+    "pk": 1,
+    "fields": {
+      "name": "AAA"
+    }
+  }
+]

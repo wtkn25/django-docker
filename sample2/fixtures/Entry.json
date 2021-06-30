@@ -1,0 +1,9 @@
+[
+  {
+    "model": "sample2.entry",
+    "pk": 1,
+    "fields": {
+      "author": 1
+    }
+  }
+]

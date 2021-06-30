@@ -1,0 +1,9 @@
+[
+  {
+    "model": "sample2.author",
+    "pk": 1,
+    "fields": {
+      "hometown": 1
+    }
+  }
+]
