@@ -1,0 +1,74 @@
+[
+  {
+    "model": "sample4.book",
+    "pk": 1,
+    "fields": {
+      "shop": 2,
+      "name": "本A",
+      "description": "",
+      "created_at": "2021-07-07T14:11:18.643Z",
+      "updated_at": "2021-07-07T14:11:18.643Z",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "sample4.book",
+    "pk": 2,
+    "fields": {
+      "shop": 2,
+      "name": "本B",
+      "description": "",
+      "created_at": "2021-07-07T14:11:22.767Z",
+      "updated_at": "2021-07-07T14:11:22.767Z",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "sample4.book",
+    "pk": 3,
+    "fields": {
+      "shop": 2,
+      "name": "本C",
+      "description": "",
+      "created_at": "2021-07-07T14:11:26.310Z",
+      "updated_at": "2021-07-07T14:11:26.310Z",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "sample4.book",
+    "pk": 4,
+    "fields": {
+      "shop": 3,
+      "name": "本D",
+      "description": "",
+      "created_at": "2021-07-07T14:11:30.775Z",
+      "updated_at": "2021-07-07T14:11:30.776Z",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "sample4.book",
+    "pk": 5,
+    "fields": {
+      "shop": 5,
+      "name": "本E",
+      "description": "",
+      "created_at": "2021-07-07T14:11:35.038Z",
+      "updated_at": "2021-07-07T14:11:35.038Z",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "sample4.book",
+    "pk": 6,
+    "fields": {
+      "shop": 5,
+      "name": "本F",
+      "description": "",
+      "created_at": "2021-07-07T14:11:38.140Z",
+      "updated_at": "2021-07-07T14:11:38.140Z",
+      "is_deleted": false
+    }
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "model": "sample4.user",
+    "pk": 1,
+    "fields": {
+      "name": "ユーザA",
+      "shop": 2,
+      "created_at": "2021-07-07T14:10:12.897Z",
+      "updated_at": "2021-07-07T14:10:12.897Z",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "sample4.user",
+    "pk": 2,
+    "fields": {
+      "name": "ユーザB",
+      "shop": 2,
+      "created_at": "2021-07-07T14:10:16.445Z",
+      "updated_at": "2021-07-07T14:10:16.445Z",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "sample4.user",
+    "pk": 3,
+    "fields": {
+      "name": "ユーザC",
+      "shop": 3,
+      "created_at": "2021-07-07T14:10:21.271Z",
+      "updated_at": "2021-07-07T14:10:21.271Z",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "sample4.user",
+    "pk": 4,
+    "fields": {
+      "name": "ユーザD",
+      "shop": 3,
+      "created_at": "2021-07-07T14:10:25.327Z",
+      "updated_at": "2021-07-07T14:10:25.327Z",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "sample4.user",
+    "pk": 5,
+    "fields": {
+      "name": "ユーザE",
+      "shop": 5,
+      "created_at": "2021-07-07T14:10:29.844Z",
+      "updated_at": "2021-07-07T14:10:29.844Z",
+      "is_deleted": false
+    }
+  },
+  {
+    "model": "sample4.user",
+    "pk": 6,
+    "fields": {
+      "name": "ユーザF",
+      "shop": 5,
+      "created_at": "2021-07-07T14:10:33.854Z",
+      "updated_at": "2021-07-07T14:10:33.854Z",
+      "is_deleted": false
+    }
+  }
+]
