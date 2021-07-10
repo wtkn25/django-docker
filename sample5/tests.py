@@ -85,10 +85,9 @@ class SampleTestCase(TestCase):
         c1 = CategoryFactory.create()
         HeroFactory.create(category=c1)
         HeroFactory.create(category=c1)
-        with self.assertNumQueries(0):
-            # 即評価されてしまうタイミングでもSubqueryをつけてやれば、あとでfilterの中で使えるっぽい
+        with self.assertNumQueries(1):
             heros = Hero.objects.filter(
-                category=Subquery(Category.objects.all().first())
+                category=Category.objects.all().first()
             )
             # print(heros.query)  # 勝手にSubqueryにしてくれるっぽい
             # print(heros)

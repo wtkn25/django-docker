@@ -60,6 +60,9 @@ class GoodsManagerTestCase(TestCase):
         self.assertEqual(Goods.all_objects.count(), 1)
 
 class GoodsQuerySetTestCase(TestCase):
+    def setUp(self) -> None:
+        self.goods = GoodsFactory.create()
+
     def test_QuerySetのdeleteが論理削除になることを確認する(self):
         Goods.objects.all().delete()
         self.assertEqual(Goods.objects.count(), 0)

@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "ec.apps.EcConfig",
     "sample.apps.SampleConfig",
     "sample2.apps.Sample2Config",
     "sample3.apps.Sample3Config",
