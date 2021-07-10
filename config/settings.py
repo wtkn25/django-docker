@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "sample2.apps.Sample2Config",
     "sample3.apps.Sample3Config",
     "sample4.apps.Sample4Config",
+    "sample5.apps.Sample5Config",
 ]
 
 MIDDLEWARE = [
@@ -137,9 +138,9 @@ LOGGING = {
         },
     },
     "loggers": {
-        "django.db.backends": {
-            "handlers": ["console"],
-            "level": "DEBUG",
-        },
+        # "django.db.backends": {
+        #     "handlers": ["console"],
+        #     "level": "DEBUG",
+        # },
     },
 }
